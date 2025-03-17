@@ -1,8 +1,7 @@
 # roa2-frame-dump
-AutoHotKey scripts to dump screenshots of a character's frames and frame data from Rivals of Aether II.
+AutoHotKey scripts to dump screenshots of a character's frames and hitboxes from Rivals of Aether II.
 
-## Todo
-
+## Todo (functions to implement)
 - [ ] Reset training environment
 - [ ] Zoom camera to appropriate position
 - [ ] Set character positions
@@ -13,7 +12,6 @@ AutoHotKey scripts to dump screenshots of a character's frames and frame data fr
 - [ ] Organize screenshots
 
 ## Assumptions
-
 - The player nametag uses the default keyboard controls
 - There are no controllers connected
 - The player has their gameplay FPS set to 60
@@ -22,7 +20,6 @@ AutoHotKey scripts to dump screenshots of a character's frames and frame data fr
 - The player has selected their character/skin and loaded into the training room
 
 ## Usage
-
 - Disconnect controllers (maybe not necessary, will look into later)
 - Open the game
 - Set your gameplay FPS to 60
