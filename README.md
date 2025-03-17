@@ -4,9 +4,9 @@ AutoHotKey scripts to dump screenshots of a character's frames and frame data fr
 ## Todo
 
 - [ ] Reset training environment
+- [ ] Zoom camera to appropriate position
 - [ ] Set character positions
 - [ ] Set save state for loading
-- [ ] Zoom camera to appropriate position
 - [ ] Frame advance
 - [ ] Perform attack
 - [ ] Take screenshot
