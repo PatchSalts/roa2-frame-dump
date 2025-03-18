@@ -14,8 +14,8 @@ AutoHotKey scripts to dump screenshots of a character's frames and hitboxes from
 ## Assumptions
 - The player nametag uses the default keyboard controls
 - There are no controllers connected
-- The player has their gameplay FPS set to 60
-- The player's computer is capable of holding a stable 60 FPS in the training room
+- The player has their gameplay FPS set to 30
+- The player's computer is capable of holding a stable 30 FPS in the training room
 - The player has selected Zetterburn as the training dummy
 - The player has selected their character/skin and loaded into the training room
 - The player is using F12 as their Steam screenshot key
@@ -23,7 +23,7 @@ AutoHotKey scripts to dump screenshots of a character's frames and hitboxes from
 ## Usage
 - Disconnect controllers (maybe not necessary, will look into later)
 - Open the game
-- Set your gameplay FPS to 60
+- Set your gameplay FPS to 30
 - Go into training mode
 - Select the default controls
 - Select your character and skin
