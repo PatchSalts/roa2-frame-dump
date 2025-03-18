@@ -88,10 +88,11 @@
 - Hold right for 2s
 - Wait for 10s
 - [Player should be on top platform facing right, no intangibility]
+- Hold down for 1s
+- [Player should be in center stage facing right, no intangibility]
 - Zoom the camera in for 1.5s
 - Lock, attach, and detach camera player
 - Move camera backward for 12s
+- Move camera up for 1s
 - [Whole stage should be in view]
-- Hold down for 1s
-- [Player should be in center stage facing right, no intangibility]
 - Save state
