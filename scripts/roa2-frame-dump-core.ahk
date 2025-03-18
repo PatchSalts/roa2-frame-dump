@@ -1,0 +1,54 @@
+Del::
+Gosub, Main
+return
+
+BS::
+Pause
+
+Esc::
+ExitApp
+
+Main:
+Sleep, 500
+SetKeyDelay, 50, 50
+Send, {SPACE}
+Sleep, 3000
+Gosub, ResetTrainingEnvironment
+Gosub, SetUpCharacterPositions
+Gosub, SetUpCamera
+return
+
+ResetTrainingEnvironment:
+SetKeyDelay, 50, 50
+Send, {ENTER}{UP 2}Z
+return
+
+SetUpCharacterPositions:
+SetKeyDelay, 0, 0
+Sleep, 3000
+Send, {LEFT Down}
+Sleep, 1000
+Send, {LEFT Up}{v}
+Sleep, 6000
+Send, {RIGHT Down}
+Sleep, 2000
+Send, {RIGHT Up}
+Sleep, 7000
+Send, {DOWN Down}
+Sleep, 1000
+Send, {DOWN Up}
+Sleep, 250
+return
+
+SetUpCamera:
+SetKeyDelay, 50, 50
+Send, {ENTER}{Down 4}{z}{e}{z 2}
+SetKeyDelay, 0, 0
+Send, {c Down}
+Sleep, 1500
+Send, {c Up}{DOWN Down}
+Sleep, 12000
+Send, {DOWN Up}{f Down}
+Sleep, 1000
+Send, {f Up}
+return

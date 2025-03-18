@@ -2,9 +2,9 @@
 AutoHotKey scripts to dump screenshots of a character's frames and hitboxes from Rivals of Aether II.
 
 ## Todo (functions to implement)
-- [ ] Reset training environment
-- [ ] Set character positions
-- [ ] Zoom camera to appropriate position
+- [x] Reset training environment
+- [x] Set character positions
+- [x] Zoom camera to appropriate position
 - [ ] Set save state for loading
 - [ ] Frame advance
 - [ ] Perform attack
