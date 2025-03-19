@@ -56,4 +56,4 @@ return
 
 SetSaveState:
 SetKeyDelay, 50, 50
-Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{UP}{z}
+Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{ENTER}
