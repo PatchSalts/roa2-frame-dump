@@ -6,7 +6,7 @@ AutoHotKey scripts to dump screenshots of a character's frames and hitboxes from
 - [x] Set character positions
 - [x] Zoom camera to appropriate position
 - [x] Set save state for loading
-- [ ] Frame advance
+- [x] Frame advance
 - [ ] Perform attack
 - [ ] Take screenshot
 - [ ] Organize screenshots

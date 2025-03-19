@@ -17,6 +17,7 @@ Gosub, ResetTrainingEnvironment
 Gosub, SetUpCharacterPositions
 Gosub, SetUpCamera
 Gosub, SetSaveState
+Gosub, EnterFrameAdvance
 return
 
 ResetTrainingEnvironment:
@@ -59,3 +60,7 @@ return
 SetSaveState:
 SetKeyDelay, 50, 50
 Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{DOWN}{z}{ENTER}
+
+EnterFrameAdvance:
+SetKeyDelay, 50, 50
+Send, {ENTER}{DOWN}{z}
