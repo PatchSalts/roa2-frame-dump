@@ -16,6 +16,7 @@ Sleep, 3000
 Gosub, ResetTrainingEnvironment
 Gosub, SetUpCharacterPositions
 Gosub, SetUpCamera
+Gosub, SetSaveState
 return
 
 ResetTrainingEnvironment:
@@ -52,3 +53,7 @@ Send, {DOWN Up}{f Down}
 Sleep, 1000
 Send, {f Up}
 return
+
+SetSaveState:
+SetKeyDelay, 50, 50
+Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{UP}{z}
