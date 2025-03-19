@@ -99,3 +99,4 @@
 
 ## Misc
 - Maybe each subroutine should exit the menu and return to active gameplay?
+- Should probably run through moveset once with hitboxes and frame data, then once with just hitboxes, then once with nothing
