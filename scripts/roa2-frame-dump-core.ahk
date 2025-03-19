@@ -52,8 +52,10 @@ Sleep, 12000
 Send, {DOWN Up}{f Down}
 Sleep, 1000
 Send, {f Up}
+SetKeyDelay, 50, 50
+Send, {ENTER 2}
 return
 
 SetSaveState:
 SetKeyDelay, 50, 50
-Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{ENTER}
+Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{DOWN}{z}{ENTER}

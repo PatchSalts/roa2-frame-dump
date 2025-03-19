@@ -96,3 +96,6 @@
 - Move camera up for 1s
 - [Whole stage should be in view]
 - Save state
+
+## Misc
+- Maybe each subroutine should exit the menu and return to active gameplay?
