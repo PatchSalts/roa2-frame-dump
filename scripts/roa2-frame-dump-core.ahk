@@ -21,7 +21,7 @@ return
 
 ResetTrainingEnvironment:
 SetKeyDelay, 50, 50
-Send, {ENTER}{UP 2}Z
+Send, {ENTER}{UP 2}{z}
 return
 
 SetUpCharacterPositions:
