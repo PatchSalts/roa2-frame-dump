@@ -60,15 +60,19 @@ return
 SetSaveState:
 SetKeyDelay, 50, 50
 Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{DOWN}{z}{ENTER}
+return
 
 EnterFrameAdvance:
 SetKeyDelay, 50, 50
 Send, {ENTER}{DOWN}{z}
+return
 
 AdvanceFrame:
 SetKeyDelay, 50, 50
 Send, {t}
+return
 
 TakeScreenshot:
 SetKeyDelay, 50, 50
 Send, {F12}
+return
