@@ -7,9 +7,8 @@ AutoHotKey scripts to dump screenshots of a character's frames and hitboxes from
 - [x] Zoom camera to appropriate position
 - [x] Set save state for loading
 - [x] Frame advance
-- [ ] Perform attack
 - [ ] Take screenshot
-- [ ] Organize screenshots
+- [ ] Perform attack
 
 ## Assumptions
 - The player nametag uses the default keyboard controls
