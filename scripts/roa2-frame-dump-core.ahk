@@ -64,3 +64,11 @@ Send, {ENTER}{DOWN 3}{z}{DOWN}{z}{DOWN}{z}{ENTER}
 EnterFrameAdvance:
 SetKeyDelay, 50, 50
 Send, {ENTER}{DOWN}{z}
+
+AdvanceFrame:
+SetKeyDelay, 50, 50
+Send, {t}
+
+TakeScreenshot:
+SetKeyDelay, 50, 50
+Send, {F12}
