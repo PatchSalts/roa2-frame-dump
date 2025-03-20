@@ -100,3 +100,4 @@
 ## Misc
 - Maybe each subroutine should exit the menu and return to active gameplay?
 - Should probably run through moveset once with hitboxes and frame data, then once with just hitboxes, then once with nothing
+- There is no way to exit the training menu while staying in Frame Advance mode; perhaps entering the Frame Advance mode should be a part of the character scripts' responsibilities?

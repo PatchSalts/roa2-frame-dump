@@ -76,3 +76,8 @@ TakeScreenshot:
 SetKeyDelay, 50, 50
 Send, {F12}
 return
+
+ToggleHitboxes:
+SetKeyDelay, 50, 50
+Send, {ENTER}{DOWN 2}{z}{UP 4}{z}{DOWN 3}{z}
+return
